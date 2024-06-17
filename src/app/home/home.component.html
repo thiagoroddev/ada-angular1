@@ -1,0 +1,8 @@
+<p>home works! PAI</p>
+Variável do componente pai: {{image}}
+<app-banner [image]="image" (onClick)="receberResult($event)"></app-banner>
+{{result}}
+
+<div *ngFor="let cat of listOfCats">
+    {{cat.text}}
+</div>
